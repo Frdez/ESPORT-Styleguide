@@ -8,28 +8,41 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- Til responsiveness -->
   <meta name="language" content ="Dansk" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
 </head>
 
 <body>
 
   <header>
-    <img src="assets/img/SPB.jpg" alt=""><!--LOGO-->
+    <img src="assets/img/SPB.jpg" alt="Logo"><!--LOGO-->
   </header>
 
-  <div id="site-wrapper">
+  <div id="site-wrapper" class="flex row">
 
-    <main id="site-main">
+    <main id="site-main" class="order">
       <article class="content">
-        <section id="typografi">
-
+        <section id="typografi" class="border">
+          <div class="reveal">
+            <button onclick="reveal()"><i class="arrow fas fa-sort-down"></i>Reveal Code</button>
+            <div id="DIVREVEAL">
+            <code>&lt;div class=&quot;button-group&quot;&gt;<br> &lt;input type=&quot;submit&quot; class=&quot;primary-button&quot; value=&quot;Post comment&quot;/&gt;<br> &lt;input type=&quot;button&quot; class=&quot;button&quot; value=&quot;Preview&quot;/&gt; &lt;a class=&quot;button button-unstyled&quot; href=&quot;#&quot;&gt;Cancel&lt;/a&gt;<br> &lt;/div&gt;</code>
+            </div>
+          </div>
+          <div class="padding">
+            <p>Open Sans</p>
+          </div>
         </section>
       </article>
     </main>
 
-    <aside id="site-nav">
+    <aside id="site-nav" >
       <nav>
         <ul>
-          <li></li>
+          <li><a onclick="typografi()">Typografi</a></li>
+          <li><a onclick="typografi()">Farver</a></li>
+          <li><a onclick="typografi()">Logo</a></li>
+          <li><a onclick="typografi()">Knapper</a></li>
+          <li><a onclick="typografi()">Kontainere</a></li>
         </ul>
       </nav>
     </aside>
@@ -37,9 +50,10 @@
   </div>
 
   <footer>
-
+    <p>Copyright © 2018 Team Krokodilletåre</p>
   </footer>
-
+  <script src="assets/js/script.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
 </body>
 
 </html>
