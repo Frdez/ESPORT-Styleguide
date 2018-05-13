@@ -1,9 +1,9 @@
 function reveal() {
-    var x = document.getElementById("DIVREVEAL");
-    if (x.style.display === "none") {
-        x.style.display = "block";
+    var reveal = document.querySelector("#DIVREVEAL");
+    if (reveal.style.display === "none") {
+        reveal.style.display = "block";
     } else {
-        x.style.display = "none";
+        reveal.style.display = "none";
     }
 }
 
