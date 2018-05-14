@@ -1,13 +1,27 @@
-function reveal() {
-    var reveal = document.querySelector("#DIVREVEAL");
-    if (reveal.style.display === "none") {
-        reveal.style.display = "block";
-    } else {
-        reveal.style.display = "none";
-    }
-}
-
 function typografi() {
   var scroll = document.querySelector("#Typografi");
   scroll.scrollIntoView({behavior: "smooth", block: "center", inline: "center"});
 }
+
+var divs = ["Div1", "Div2", "Div3", "Div4"];
+   var visibleDivId = null;
+   function divVisibility(divId) {
+     if(visibleDivId === divId) {
+       visibleDivId = null;
+     } else {
+       visibleDivId = divId;
+     }
+     hideNonVisibleDivs();
+   }
+   function hideNonVisibleDivs() {
+     var i, divId, div;
+     for(i = 0; i < divs.length; i++) {
+       divId = divs[i];
+       div = document.getElementById(divId);
+       if(visibleDivId === divId) {
+         div.style.display = "block";
+       } else {
+         div.style.display = "none";
+       }
+     }
+   }
