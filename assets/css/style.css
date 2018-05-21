@@ -113,6 +113,24 @@ hr {
     background-color: #486c75;
 }
 
+.third {
+  background: -webkit-linear-gradient(to top, #243B55, #141E30);
+  background: linear-gradient(to top, #243B55, #141E30);
+}
+
+.fourth {
+  background: -webkit-linear-gradient(to bottom, #486c75, #2c3e50);
+  background: linear-gradient(to bottom, #486c75, #2c3e50);
+}
+
+.fifth {
+  background-color: #192730;
+}
+
+.sixth {
+  background-color: rgb(71, 84, 99);
+}
+
 .top {
   margin-top: 20px;
 }
