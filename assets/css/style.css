@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 /* STANDARTS */
@@ -91,8 +91,10 @@ hr {
     height: 1px;
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
-    margin: 30px 0 0 0;
+    margin: 15px 0;
 }
+
+/* colors */
 
 .color {
   width: 100%;
@@ -105,12 +107,44 @@ hr {
 }
 
 .first {
-    background-color: #85D8CE;
+    background-color: #243440;
+}
+.second {
+    background-color: #486c75;
 }
 
 .top {
   margin-top: 20px;
 }
+
+/* Typografi */
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container h1 {
+  font-size: 40px;
+  flex: 1;
+  margin: 0;
+}
+.flex-container h2 {
+  font-size: 30px;
+  flex: 1;
+  margin:0;
+}
+
+.flex-container p {
+  text-align: right;
+  flex: 1;
+}
+
+h1,
+h2 {
+  font-family: 'Work Sans', sans-serif;
+}
+
 
 /* main --> nav */
 
