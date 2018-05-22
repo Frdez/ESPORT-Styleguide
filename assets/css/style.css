@@ -54,6 +54,9 @@ header img {
   margin-top: 10px;
   width: 100%;
   padding: 20px;
+  width: 97%;
+  max-height: 200px;
+  overflow: auto;
 }
 
 .reveal {
@@ -78,6 +81,7 @@ button {
   border: none;
   cursor: pointer;
   outline: none;
+  text-align: left;
 }
 
 .arrow {
@@ -161,6 +165,121 @@ hr {
 h1,
 h2 {
   font-family: 'Work Sans', sans-serif;
+}
+
+/* logo */
+.logos {
+  justify-content: center;
+}
+
+.logo2 img {
+  height: 100px;
+  margin-right: 20px;
+  margin-left: 100px;
+}
+
+.logo1 img {
+  height: 100px;
+  margin-right: 20px;
+}
+
+.logos p {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+}
+
+/* formularer */
+.learn-more {
+  width: 150px;
+  height: 50px;
+  border-radius: 40px;
+  font-weight: 700;
+  font-family: 'Work Sans', sans-serif;
+  border: 1px solid black;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.3s ease;
+  background-color: Transparent;
+}
+
+.learn-more:hover {
+  background-color: #243440;
+  color: white;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 3% 10% 3% 10%;
+}
+
+input {
+
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.875em;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+
+  background: rgb(36, 52, 64);
+  outline: none;
+  color: white;
+
+  border: solid 1px white;
+  border-bottom: none;
+
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  background-color: rgba(36, 52, 64,0.7);
+}
+
+textarea {
+  font-family: 'Work Sans', sans-serif;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+
+  background: rgb(36, 52, 64);
+  outline: none;
+
+  color: white;
+  font-size: 0.875em;
+
+  border: solid 1px white;
+
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+background-color: rgba(36, 52, 64,0.7);
+}
+
+#submit {
+
+
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.875em;
+  color: white;
+
+  outline:none;
+  cursor: pointer;
+
+  border: solid 1px white;
+  border-top: none;
+}
+
+#submit:hover {
+  background-color: rgba(5, 64, 95, 0.5);
 }
 
 
