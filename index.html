@@ -59,7 +59,7 @@
           <hr>
         </section>
 
-        <section>
+        <section id="global">
           <h2>Global</h2>
           <div class="border">
             <div class="reveal">
@@ -151,10 +151,24 @@
                 <input id="name" type="text" placeholder="Navn">
                 <input id="email" type="text" placeholder="E-mail">
                 <input id="tlf" type="text" placeholder="Telefon">
-                <textarea id="message" type="text" placeholder="Besked.."></textarea>
+                <textarea id="message" placeholder="Besked.."></textarea>
                 <input id="submit" type="submit" value="GO!">
               </form>
             </div>
+          </div>
+        </section>
+        <hr>
+        <section id="Kontainere">
+          <h2>Kontainere</h2>
+          <div class="kontainers">
+            <h3>1af1</h3>
+            <img src="assets/img/1af1.png" alt="1af1">
+            <h3>2af2</h3>
+            <img src="assets/img/2af2.png" alt="2af2">
+            <h3>3af3</h3>
+            <img src="assets/img/3af3.png" alt="3af3">
+            <h3>Splitscreen</h3>
+            <img src="assets/img/splitscreen.png" alt="splitscreen">
           </div>
         </section>
       </article>
@@ -163,12 +177,12 @@
     <aside id="site-nav">
       <nav>
         <ul>
-          <li><a onclick="typografi()">Typografi</a></li>
-          <li><a onclick="typografi()">Global</a></li>
-          <li><a onclick="typografi()">Farver</a></li>
-          <li><a onclick="typografi()">Logo</a></li>
-          <li><a onclick="typografi()">formularer</a></li>
-          <li><a onclick="typografi()">Kontainere</a></li>
+          <li onclick="typografi()"><a>Typografi</a></li>
+          <li onclick="global()"><a>Global</a></li>
+          <li onclick="farver()"><a>Farver</a></li>
+          <li onclick="logoer()"><a>Logo</a></li>
+          <li onclick="formularer()"><a>formularer</a></li>
+          <li onclick="kontainere()"><a>Kontainere</a></li>
         </ul>
       </nav>
     </aside>

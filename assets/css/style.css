@@ -282,6 +282,16 @@ background-color: rgba(36, 52, 64,0.7);
   background-color: rgba(5, 64, 95, 0.5);
 }
 
+/* kontainers */
+
+.kontainers img {
+  width: 100%;
+}
+
+.kontainers h3 {
+  text-align: center;
+}
+
 
 /* main --> nav */
 
